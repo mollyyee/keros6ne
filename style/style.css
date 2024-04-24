@@ -1,0 +1,119 @@
+body {
+    background-color: black;
+    padding: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+p, h1, h2, h3{
+    color: white;
+}
+
+p {
+    opacity: 60%;
+    font-family: "Roboto Mono";
+    font-size: .8rem;
+}
+
+h2 {
+    font-size: 1rem;
+    font-family: "Inter";
+    font-weight: 600;
+    opacity: 80%;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-family: "Inter";
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: "Roboto Mono";
+    font-weight: 400;
+    font-size: 1rem;
+    opacity: 80%;
+
+}
+
+
+.ring-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-content: space-around;
+    row-gap: 24px;
+    column-gap: 48px;
+}
+
+.about-container {
+    width: 100%;
+    max-width:400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    margin: auto;
+}
+
+.about-text {
+    width: 100%;
+    margin: auto;
+}
+
+.emize {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0 0 6rem 0;
+
+}
+
+.footer {
+    padding-top: 8rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ring {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+
+a:hover {
+    text-decoration: underline #A41313;
+    text-decoration-thickness: 3px;    
+    text-underline-offset: 8px;
+  }
+
+#link:hover {
+    text-decoration: underline #A41313;
+    text-decoration-thickness: 3px;    
+    text-underline-offset: 3px; 
+    color: white; 
+}
+
+#link {
+    color: white; 
+}
+
+  
+.selected {
+    text-decoration: underline #A41313;
+    text-decoration-thickness: 3px;    
+    text-underline-offset: 8px;
+}
