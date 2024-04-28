@@ -147,12 +147,18 @@ a:hover {
 
 @media screen and (max-width: 540px) {
     .decor {
-        width: 120px;
+        width: 100px;
         position: fixed;
     }
     h1 {
         font-weight: 700;
         font-family: "Inter";
         font-size: 1.4rem;
+    }
+    .navbar {
+        display: flex;
+        align-items: center;
+        padding: 3rem 0 6rem 0;
+    
     }
 }
