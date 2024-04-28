@@ -19,7 +19,7 @@ p {
 }
 
 h2 {
-    font-size: 1rem;
+    font-size: .8rem;
     font-family: "Inter";
     font-weight: 600;
     opacity: 80%;
@@ -29,7 +29,7 @@ h2 {
 h1 {
     font-weight: 700;
     font-family: "Inter";
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 h3 {
@@ -91,6 +91,8 @@ h3 {
     display: flex;
     flex-direction: column;
     row-gap: 8px;
+    min-width: 200px;
+    flex: auto;
 }
 
 
@@ -116,4 +118,35 @@ a:hover {
     text-decoration: underline #A41313;
     text-decoration-thickness: 3px;    
     text-underline-offset: 8px;
+}
+
+.decor {
+    width: 150px;
+    position: fixed;
+}
+
+#top-left {
+    top: 4px;
+    left: 4px;
+}
+
+#top-right {
+    top: 4px;
+    right: 4px;
+}
+
+#bottom-right {
+    bottom: 4px;
+    right: 4px;
+}
+
+#bottom-left {
+    bottom: 4px;
+    left: 4px;
+}
+
+@media screen and (max-width: 540px) {
+    .view {
+        width: 400px;
+    }
 }
